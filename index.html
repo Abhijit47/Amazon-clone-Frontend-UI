@@ -1,0 +1,1720 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/amazon.ico" type="image/x-icon" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet" />
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer" />
+
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet" />
+    <!-- MDB -->
+    <link rel="stylesheet" href="./css/mdb.dark.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>
+      Online Shopping site in India: Shop Online for Mobiles, Books, Watches,
+      Shoes and More - Amazon.in
+    </title>
+  </head>
+  <body>
+    <header id="header" class="header position-sticky top-0 z-3">
+      <!-- Navbar -->
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #131921">
+        <!-- Container wrapper -->
+        <div class="container-fluid gx-0">
+          <div class="d-flex align-items-center">
+            <!-- Navbar brand -->
+            <div class="navbar__logo">
+              <a class="navbar-brand me-0 p-0" href="/">
+                <img
+                  class="me-0"
+                  src="images/amazon-ar21.svg"
+                  alt="nav-logo"
+                  height="50px"
+                  loading="lazy"
+                  decoding="async"
+                  fetchpriority="high" />
+                <small>.in</small>
+              </a>
+              <small class="prime">Try Prime</small>
+            </div>
+          </div>
+          <!-- Collapsible wrapper -->
+          <div
+            class="collapse navbar-collapse justify-content-center"
+            id="navbarSupportedContent">
+            <div
+              class="hstack flex-wrap justify-content-center align-items-center gap-lg-0 gap-md-2 gap-sm-2 gap-2">
+              <!-- nav left -->
+              <div class="location">
+                <div class="hstack gap-2 p-2">
+                  <div><i class="fa-solid fa-location"></i></div>
+                  <div>
+                    <h2 class="mb-0 fs-6 display-6 navbar_location_msg">
+                      Hello
+                    </h2>
+                    <p class="mb-0 fw-bold navbar_address">
+                      Select your address
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- nav fill -->
+              <div class="p-1 main_nav_fill">
+                <form
+                  action="#"
+                  onsubmit="return false"
+                  class="d-flex input-group">
+                  <div class="all_options">
+                    <span class="bg-light hstack rounded-start">
+                      <small class="p-2 text-black">All</small>
+                      <i class="fa-solid fa-caret-down text-dark"></i>
+                    </span>
+                    <select
+                      name="url"
+                      tabindex="0"
+                      class="select"
+                      title="Search in">
+                      <option selected="selected" value="search-alias=aps">
+                        All Categories
+                      </option>
+                      <option value="search-alias=alexa-skills">
+                        Alexa Skills
+                      </option>
+                      <option value="search-alias=amazon-devices">
+                        Amazon Devices
+                      </option>
+                      <option value="search-alias=fashion">
+                        Amazon Fashion
+                      </option>
+                      <option value="search-alias=nowstore">
+                        Amazon Fresh
+                      </option>
+                      <option value="search-alias=amazon-pharmacy">
+                        Amazon Pharmacy
+                      </option>
+                      <option value="search-alias=appliances">
+                        Appliances
+                      </option>
+                      <option value="search-alias=mobile-apps">
+                        Apps &amp; Games
+                      </option>
+                      <option value="search-alias=baby">Baby</option>
+                      <option value="search-alias=beauty">Beauty</option>
+                      <option value="search-alias=stripbooks">Books</option>
+                      <option value="search-alias=automotive">
+                        Car &amp; Motorbike
+                      </option>
+                      <option value="search-alias=apparel">
+                        Clothing &amp; Accessories
+                      </option>
+                      <option value="search-alias=collectibles">
+                        Collectibles
+                      </option>
+                      <option value="search-alias=computers">
+                        Computers &amp; Accessories
+                      </option>
+                      <option value="search-alias=electronics">
+                        Electronics
+                      </option>
+                      <option value="search-alias=furniture">Furniture</option>
+                      <option value="search-alias=lawngarden">
+                        Garden &amp; Outdoors
+                      </option>
+                      <option value="search-alias=gift-cards">
+                        Gift Cards
+                      </option>
+                      <option value="search-alias=grocery">
+                        Grocery &amp; Gourmet Foods
+                      </option>
+                      <option value="search-alias=hpc">
+                        Health &amp; Personal Care
+                      </option>
+                      <option value="search-alias=kitchen">
+                        Home &amp; Kitchen
+                      </option>
+                      <option value="search-alias=industrial">
+                        Industrial &amp; Scientific
+                      </option>
+                      <option value="search-alias=jewelry">Jewellery</option>
+                      <option value="search-alias=digital-text">
+                        Kindle Store
+                      </option>
+                      <option value="search-alias=luggage">
+                        Luggage &amp; Bags
+                      </option>
+                      <option value="search-alias=luxury-beauty">
+                        Luxury Beauty
+                      </option>
+                      <option value="search-alias=dvd">
+                        Movies &amp; TV Shows
+                      </option>
+                      <option value="search-alias=popular">Music</option>
+                      <option value="search-alias=mi">
+                        Musical Instruments
+                      </option>
+                      <option value="search-alias=office-products">
+                        Office Products
+                      </option>
+                      <option value="search-alias=pets">Pet Supplies</option>
+                      <option value="search-alias=instant-video">
+                        Prime Video
+                      </option>
+                      <option value="search-alias=shoes">
+                        Shoes &amp; Handbags
+                      </option>
+                      <option value="search-alias=software">Software</option>
+                      <option value="search-alias=sporting">
+                        Sports, Fitness &amp; Outdoors
+                      </option>
+                      <option value="search-alias=specialty-aps-sns">
+                        Subscribe &amp; Save
+                      </option>
+                      <option value="search-alias=home-improvement">
+                        Tools &amp; Home Improvement
+                      </option>
+                      <option value="search-alias=toys">
+                        Toys &amp; Games
+                      </option>
+                      <option value="search-alias=under-ten-dollars">
+                        Under ₹500
+                      </option>
+                      <option value="search-alias=videogames">
+                        Video Games
+                      </option>
+                      <option value="search-alias=watches">Watches</option>
+                    </select>
+                  </div>
+
+                  <div class="hstack search">
+                    <input
+                      type="search"
+                      class="form-control rounded-0 p-1"
+                      placeholder="Search"
+                      aria-label="Search"
+                      aria-describedby="search-addon" />
+
+                    <button class="btn btn-warning border-0 rounded-end">
+                      <i class="fas fa-search"></i>
+                    </button>
+                    <!-- <span
+                      class="input-group-text border-0 search_span"
+                      id="search-addon">
+                      <i class="fas fa-search rounded-end"></i>
+                    </span> -->
+                  </div>
+                </form>
+              </div>
+
+              <!-- nav right -->
+              <div class="nav-right">
+                <div class="hstack justify-content-between gap-3 p-1">
+                  <div class="hstack gap-1">
+                    <img
+                      src="images/flag-for-flag-india-svgrepo-com.svg"
+                      width="19px"
+                      height="18px"
+                      alt="lang-logo" />
+                    <span class="language">EN</span>
+                    <span><i class="fa-solid fa-caret-down"></i></span>
+                  </div>
+                  <div class="hstack gap-1">
+                    <div class="sign_in">
+                      <p class="mb-0">Hello, sign in</p>
+                      <p class="mb-0">Account & List</p>
+                    </div>
+                    <span><i class="fa-solid fa-caret-down"></i></span>
+                  </div>
+                  <div class="item_return">
+                    <p class="mb-0">Returns<br />&&nbsp;Orders</p>
+                  </div>
+                  <div class="hstack justify-content-between gap-1">
+                    <div class="">
+                      <img
+                        src="images/cart-add-svgrepo-com.svg"
+                        width="24px"
+                        height="24px"
+                        alt="cart-logo" />
+                    </div>
+                    <div class="cart">
+                      <p class="mb-0">Cart</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Toggle button -->
+          <div>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation">
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+        </div>
+        <!-- Container wrapper -->
+      </nav>
+      <!-- Navbar -->
+    </header>
+
+    <main class="">
+      <section class="nav-belt">
+        <!-- Navbar -->
+        <nav
+          class="navbar navbar-expand-lg navbar-dark"
+          style="background-color: #232f3e !important">
+          <!-- Container wrapper -->
+          <div class="container-fluid">
+            <!-- Navbar brand -->
+            <!-- <a class="navbar-brand" href="#">Brand</a> -->
+            <div class="nav-left me-1">
+              <button
+                class="btn p-2 text-light"
+                type="button"
+                data-bs-toggle="offcanvas"
+                data-bs-target="#offcanvasExample"
+                aria-controls="offcanvasExample">
+                <i class="fas fa-bars fa-lg me-1"></i>
+                <span class="text-capitalize me-1">All</span>
+              </button>
+            </div>
+
+            <!-- Toggle button -->
+            <div class="">
+              <button
+                class="navbar-toggler text-light"
+                type="button"
+                data-mdb-toggle="collapse"
+                data-mdb-target="#nav-belt"
+                aria-controls="nav-belt"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+                <!-- <i class="fas fa-bars"></i> -->
+                <i class="fa-solid fa-ellipsis-vertical"></i>
+              </button>
+            </div>
+            <!-- Collapsible wrapper -->
+            <div class="collapse navbar-collapse" id="nav-belt">
+              <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul> -->
+
+              <div class="nav-fill">
+                <ul class="nav gap-2">
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0"
+                      >Amazon miniTV</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0">Sell</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0"
+                      >Best Sellers</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0"
+                      >Today's Deals</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0">Mobiles</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0"
+                      >New Release</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0"
+                      >Customers Service</a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0">
+                      Prime
+                      <i class="fa-solid fa-caret-down fa-sm"></i>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0"
+                      >Electronics</a
+                    >
+                  </li>
+                </ul>
+              </div>
+              <div class="nav-right ms-auto">
+                <ul class="nav justify-content-center gap-2">
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0">
+                      New Launches from Mobiles,
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0">
+                      Electronics & More
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#!" class="nav-link text-light px-0">Shop now</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <!-- Container wrapper -->
+        </nav>
+        <!-- Navbar 2 belt -->
+        <!-- <div class="p-1 nav-main d-flex align-items-center">
+          <div class="nav-left">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="offcanvas"
+              data-bs-target="#offcanvasExample"
+              aria-controls="offcanvasExample">
+              <i class="fas fa-bars fa-lg me-1"></i>
+              <span class="text-capitalize me-1">All</span>
+            </button>
+          </div>
+          <div class="nav-fill">
+            <ul class="nav gap-2">
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Amazon miniTV</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Sell</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Best Sellers</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Today's Deals</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Mobiles</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">New Release</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Customers Service</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">
+                  Prime
+                  <i class="fa-solid fa-caret-down fa-sm"></i>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Electronics</a>
+              </li>
+            </ul>
+          </div>
+          <div class="nav-right ms-auto">
+            <ul class="nav gap-2">
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">
+                  New Launches from Mobiles,
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">
+                  Electronics & More
+                </a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Shop now</a>
+              </li>
+            </ul>
+          </div>
+        </div> -->
+      </section>
+      <!-- carousel section start -->
+      <section id="main">
+        <div
+          id="heroCarousel"
+          class="carousel slide carousel-fade mb-2"
+          data-mdb-ride="carousel">
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="0"
+              class="active text-bg-dark"
+              aria-current="true"
+              aria-label="Slide 1"></button>
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="1"
+              class="text-bg-dark"
+              aria-label="Slide 2"></button>
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="2"
+              class="text-bg-dark"
+              aria-label="Slide 3"></button>
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="3"
+              class="text-bg-dark"
+              aria-label="Slide 4"></button>
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="4"
+              class="text-bg-dark"
+              aria-label="Slide 5"></button>
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="5"
+              class="text-bg-dark"
+              aria-label="Slide 6"></button>
+            <button
+              type="button"
+              data-mdb-target="#heroCarousel"
+              data-mdb-slide-to="6"
+              class="text-bg-dark"
+              aria-label="Slide 7"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="carousel__imag1"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__imag2"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__imag3"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__imag4"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__imag5"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__imag6"></div>
+            </div>
+            <div class="carousel-item">
+              <div class="carousel__imag7"></div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-mdb-target="#heroCarousel"
+            data-mdb-slide="prev">
+            <span
+              class="carousel-control-prev-icon text-dark"
+              aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-mdb-target="#heroCarousel"
+            data-mdb-slide="next">
+            <span
+              class="carousel-control-next-icon text-dark"
+              aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- carousel section end -->
+
+      <!-- Product Card Start-->
+      <!-- First row -->
+      <section class="">
+        <div
+          class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 justify-content-center gap-lg-0 gap-sm-0 gap-3 p-2">
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-1">
+              <div class="card-header text-dark text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Automotive essentials | 60% off
+                </h6>
+              </div>
+              <div class="d-flex flex-lg-wrap flex-md-wrap flex-wrap">
+                <!-- img-1 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Glasscare.jpg"
+                    class="img-fluid auto1"
+                    alt="Glasscare"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small class="">Cleaning accessories</small>
+                </div>
+                <!-- img-2 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Rim_tyrecare.jpg"
+                    class="img-fluid auto2"
+                    alt="tyrecare"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Tyre & rim care</small>
+                </div>
+                <!-- img-3 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Vega_helmet.jpg"
+                    class="img-fluid auto3"
+                    alt="helmet"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Helmets</small>
+                </div>
+                <!-- img-4 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Vaccum.jpg"
+                    class="img-fluid auto4"
+                    alt="Vaccum"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Vaccum cleaner</small>
+                </div>
+              </div>
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-2">
+              <div class="card-header text-dark text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Up to 70% off | Clearance store
+                </h6>
+              </div>
+              <div
+                class="bg-image hover-overlay ripple m-auto"
+                data-mdb-ripple-color="light">
+                <img
+                  src="images/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg"
+                  class="img-fluid object-fit-cover ratio-1x1 p-1" />
+                <a href="#!">
+                  <div
+                    class="mask"
+                    style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                </a>
+              </div>
+
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-3">
+              <div class="card-header text-dark fs-6 text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Appliances for home | 55% off
+                </h6>
+              </div>
+              <div class="d-flex flex-wrap">
+                <!-- img-1 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/air_conditioner.jpg"
+                    class="img-fluid home1"
+                    alt="air conditioner"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Air conditioner</small>
+                </div>
+                <!-- img-2 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/refrigerator.jpg"
+                    class="img-fluid home2"
+                    alt="refrigerator"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Refrigerator</small>
+                </div>
+                <!-- img-3 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/microwave.jpg"
+                    class="img-fluid home3"
+                    alt="microwave"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Microwave</small>
+                </div>
+                <!-- img-4 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/washing_machine.jpg"
+                    class="img-fluid home4"
+                    alt="washing machine"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Washing machine</small>
+                </div>
+              </div>
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div class="card bg-light text-dark overflow-hidden" id="card-4">
+              <div
+                class="vstack justify-content-center align-items-center gap-5">
+                <div class="card text-center bg-light text-dark">
+                  <div class="card-body">
+                    <h5 class="card-title text-start">
+                      Sign in for your best experience
+                    </h5>
+                    <a
+                      href="#!"
+                      class="btn"
+                      style="background: #ffd814; border-color: #fcd200"
+                      >Sign in securely</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="bg-image hover-overlay ripple"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Laptops-Sept2019._CB436595915_.jpg"
+                    class="img-fluid object-cover" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                </div>
+              </div>
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Second row -->
+      <section class="">
+        <div
+          class="row row-cols-lg-4 row-cols-md-2 row-cols-sm-2 row-cols-1 justify-content-center gap-lg-0 gap-sm-0 gap-3 p-2">
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-5">
+              <div class="card-header text-dark text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Up to 60% off | Professional tools
+                </h6>
+              </div>
+              <div class="d-flex flex-lg-wrap flex-md-wrap flex-wrap">
+                <!-- img-1 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Tools1.jpg"
+                    class="img-fluid tool1"
+                    alt="Glasscare"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small class="">Professional tools</small>
+                </div>
+                <!-- img-2 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Tools2.jpg"
+                    class="img-fluid tool2"
+                    alt="tyrecare"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Measuring instruments</small>
+                </div>
+                <!-- img-3 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Tools3.jpg"
+                    class="img-fluid tool3"
+                    alt="helmet"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Clealing supplies</small>
+                </div>
+                <!-- img-4 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Tools4.jpg"
+                    class="img-fluid tool4"
+                    alt="Vaccum"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Medical supplies</small>
+                </div>
+              </div>
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-6">
+              <div class="card-header text-dark text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Up to 70% off | Styles for men
+                </h6>
+              </div>
+              <div class="d-flex flex-lg-wrap flex-md-wrap flex-wrap">
+                <!-- img-1 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Men1.jpg"
+                    class="img-fluid men1"
+                    alt="Glasscare"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small class="">Clothing</small>
+                </div>
+                <!-- img-2 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Men2.jpg"
+                    class="img-fluid men2"
+                    alt="tyrecare"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Footwear</small>
+                </div>
+                <!-- img-3 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Men3.jpg"
+                    class="img-fluid men3"
+                    alt="helmet"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Watches</small>
+                </div>
+                <!-- img-4 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Men4.jpg"
+                    class="img-fluid men4"
+                    alt="Vaccum"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Bags & luggage</small>
+                </div>
+              </div>
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-7">
+              <div class="card-header text-dark fs-6 text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Up to 70% off | Styles for women
+                </h6>
+              </div>
+              <div class="d-flex flex-wrap">
+                <!-- img-1 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Women1.jpg"
+                    class="img-fluid women1"
+                    alt="air conditioner"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Women's Clothing</small>
+                </div>
+                <!-- img-2 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Women2.jpg"
+                    class="img-fluid women2"
+                    alt="refrigerator"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Footwear+Handbags</small>
+                </div>
+                <!-- img-3 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Women3.jpg"
+                    class="img-fluid women3"
+                    alt="microwave"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Watches</small>
+                </div>
+                <!-- img-4 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Women4.jpg"
+                    class="img-fluid women4"
+                    alt="washing machine"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Fashion jewellery</small>
+                </div>
+              </div>
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">End of season sale</a>
+            </div>
+          </div>
+          <div class="col-9 col-lg-3 mb-lg-2 mb-md-4 mb-sm-4">
+            <div
+              class="card justify-content-between bg-light text-dark overflow-hidden"
+              id="card-8">
+              <div class="card-header text-dark fs-6 text-center">
+                <h6 class="mb-0 fs-6 fw-semibold">
+                  Offers on travel tickets | 30% off
+                </h6>
+              </div>
+              <div class="d-flex flex-wrap">
+                <!-- img-1 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Travel1.jpg"
+                    class="img-fluid travel1"
+                    alt="air conditioner"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small class="text-break">Get up to ₹2000 off</small>
+                </div>
+                <!-- img-2 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Travel2.jpg"
+                    class="img-fluid travel2"
+                    alt="refrigerator"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Zero gateway fees...</small>
+                </div>
+                <!-- img-3 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Travel3.jpg"
+                    class="img-fluid travel3"
+                    alt="microwave"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Bus ticket bookings</small>
+                </div>
+                <!-- img-4 -->
+                <div
+                  class="bg-image hover-overlay vstack align-items-center"
+                  data-mdb-ripple-color="light">
+                  <img
+                    src="images/Travel4.jpg"
+                    class="img-fluid travel4"
+                    alt="washing machine"
+                    style="width: 150px" />
+                  <a href="#!">
+                    <div
+                      class="mask"
+                      style="background-color: rgba(251, 251, 251, 0.15)"></div>
+                  </a>
+                  <small>Products for your tra...</small>
+                </div>
+              </div>
+              <!-- <div class="card-body"></div> -->
+              <a href="#!" class="btn btn-link">See more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Product Card end-->
+
+      <!-- Product card carousel start -->
+      <section class="bg-light mt-3">
+        <div class="p-2 hstack gap-3 product_cards-3">
+          <h4 class="mb-0 ms-2 text-dark fs-5 fw-bold">
+            Up to 60% off | Every room deserves to be unique
+          </h4>
+          <a href="#!" class="mb-0 mt-1">See all offers</a>
+        </div>
+        <div
+          id="productCarousel1"
+          class="carousel slide carousel-fade mb-2"
+          data-bs-ride="carousel">
+          <div class="carousel-inner p-2">
+            <div class="carousel-item active">
+              <div class="hstack justify-content-center">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product1.jpg"
+                    class="card-img-top"
+                    alt="product1" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product2.jpg"
+                    class="card-img-top"
+                    alt="product2" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product3.jpg"
+                    class="card-img-top"
+                    alt="product3" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product4.jpg"
+                    class="card-img-top"
+                    alt="product4" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product5.jpg"
+                    class="card-img-top"
+                    alt="product5" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hstack justify-content-center">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product6.jpg"
+                    class="card-img-top"
+                    alt="product6" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product7.jpg"
+                    class="card-img-top"
+                    alt="product7" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product8.jpg"
+                    class="card-img-top"
+                    alt="product8" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product9.jpg"
+                    class="card-img-top"
+                    alt="product9" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product10.jpg"
+                    class="card-img-top"
+                    alt="product10" />
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div class="hstack justify-content-center">
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product11.jpg"
+                    class="card-img-top"
+                    alt="product11" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product12.jpg"
+                    class="card-img-top"
+                    alt="product12" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product13.jpg"
+                    class="card-img-top"
+                    alt="product13" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product14.jpg"
+                    class="card-img-top"
+                    alt="product14" />
+                </div>
+                <div class="card" style="width: 18rem">
+                  <img
+                    src="images/product15.jpg"
+                    class="card-img-top"
+                    alt="product15" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#productCarousel1"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#productCarousel1"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      <!-- Product card carousel end -->
+      <section class="mt-3 mb-3">
+        <!-- <div class="card mb-3">
+          <img
+            src="https://mdbcdn.b-cdn.net/img/new/slides/041.webp"
+            class="card-img-top"
+            alt="Wild Landscape" />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              This is a wider card with supporting text below as a natural
+              lead-in to additional content. This content is a little bit
+              longer.
+            </p>
+            <p class="card-text">
+              <small class="text-muted">Last updated 3 mins ago</small>
+            </p>
+          </div>
+        </div> -->
+        <div class="hstack justify-content-center p-3">
+          <a href="#!">
+            <img
+              class="furnish_banner"
+              src="images/desktop_banner.jpg"
+              alt="home_furnishing" />
+          </a>
+        </div>
+      </section>
+      <section class="mt-4 mb-3">
+        <div
+          class="border border-secondary border-2 rounded-2 hstack justify-content-center p-3">
+          <form action="#" onsubmit="return false" class="">
+            <p class="text-dark mb-0">See personalized recommendations</p>
+            <button type="submit" class="btn btn-warning btn-block">
+              Sign in
+            </button>
+            <div class="text-center">
+              <span class="text-dark mb-0">New customer?</span>
+              <a href="#!" class="text-center"> Start here. </a>
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="">
+      <!-- footer column 1 -->
+      <div class="p-3 text-center footer__btn">
+        <a href="#main" class="nav-link">Back to top</a>
+      </div>
+      <div class="footer__column-1 p-2">
+        <div
+          class="hstack flex-wrap justify-content-center align-items-start gap-lg-4 gap-4">
+          <!-- first footer box -->
+          <div class="p-5">
+            <h6 class="">Get to Know Us</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">About us</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"> Careers</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Press Release</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Amazon Science</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Second footer box -->
+          <div class="p-5">
+            <h6 class="">Connect with us</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Facebook</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Twitter</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Instagram</a>
+              </li>
+            </ul>
+          </div>
+          <!-- Third box -->
+          <div class="p-5">
+            <h6 class="">Make Money with Us</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Sell on Amazon</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Sell under Amazon Accelerator</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Protect and Build Your Brand</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Amazon Global Selling</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Become an Affiliate</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Fullfillment by Amazon</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Advertise Your Products</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Amazon Pay on Merchants</a
+                >
+              </li>
+            </ul>
+          </div>
+          <!-- Fourth box -->
+          <div class="p-5">
+            <h6 class="">Let Us Help You</h6>
+            <ul class="nav flex-column">
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >COVID-19 and Amazon</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Your Account</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Returns Center</a>
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >100% Purchase Protection</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0"
+                  >Amazon App Download</a
+                >
+              </li>
+              <li class="nav-item">
+                <a href="#!" class="nav-link text-light px-0">Help</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <hr class="m-0" />
+      <!-- footer column 2 -->
+      <div class="footer__column-2">
+        <div class="hstack justify-content-center footer__colomn-2_rows">
+          <div>
+            <img
+              src="images/amazon-ar21.svg"
+              alt="footer-logo"
+              class="img-fluid" />
+          </div>
+          <div>
+            <a
+              class="btn btn-outline-light"
+              data-mdb-toggle="tooltip"
+              title="Languages"
+              data-mdb-placement="bottom">
+              <i class="fa-solid fa-globe"></i>
+              English
+            </a>
+          </div>
+        </div>
+
+        <div class="footer__column-2_countries container">
+          <ul class="nav justify-content-center flex-wrap gap-2">
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Australia</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Brazil</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Canada</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">China</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">France</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Germany</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Italy</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Japan</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Mexico</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Netharlands</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Poland</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Singapore</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Spain</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">Turkey</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">United Arab Emirates</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">United Kingdom</a>
+            </li>
+            <li class="nav-item">
+              <a href="#!" class="nav-link text-light">United States</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- footer column 3 -->
+      <div class="footer__column-3">
+        <!-- table -->
+        <div class="p-3 container row m-auto">
+          <table cellspacing="0">
+            <tbody>
+              <tr>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >AbeBooks<br /><span class="navFooterDescText"
+                      >Books, art<br />&amp; collectibles</span
+                    ></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >Amazon Web Services<br /><span
+                      >Scalable Cloud<br />Computing Services</span
+                    ></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >Audible<br /><span>Download<br />Audio Books</span></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >DPReview<br /><span>Digital<br />Photography</span></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >IMDb<br /><span>Movies, TV<br />&amp; Celebrities</span></a
+                  >
+                </td>
+              </tr>
+              <tr>
+                <td>&nbsp;</td>
+              </tr>
+              <tr>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >Shopbop<br /><span>Designer<br />Fashion Brands</span></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link">
+                    Amazon Business<br /><span
+                      >Everything For<br />Your Business</span
+                    ></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >Prime Now<br /><span>
+                      2-Hour Delivery<br />on Everyday Items</span
+                    ></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>
+                  <a href="#!" class="nav-link"
+                    >Amazon Prime Music<br /><span
+                      >100 million songs, ad-free<br />Over 15 million podcast
+                      episodes
+                    </span></a
+                  >
+                </td>
+                <td style="width: 4%"></td>
+                <td>&nbsp;</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <!-- table -->
+      </div>
+
+      <!-- Copyright -->
+      <div
+        class="footer__copyright-container p-3 vstack align-items-center gap-2">
+        <div
+          class="footer__copyright_links hstack justify-content-center gap-2">
+          <a href="#!" class="nav-link text-center">
+            Conditions of Use & Sale
+          </a>
+          <a href="#!" class="nav-link text-center"> Privacy Notice </a>
+          <a href="#!" class="nav-link text-center"> Interest-Based Ads </a>
+        </div>
+        <div>
+          <p class="footer__copyright">
+            &copy; 1996-2023, Amazon.com, Inc. or its affiliates
+          </p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- offcanvas -->
+    <div class="drawer-menu">
+      <div
+        class="offcanvas offcanvas-start bg-dark"
+        tabindex="-1"
+        id="offcanvasExample"
+        aria-labelledby="offcanvasExampleLabel">
+        <div class="hmenu p-3 hstack justify-content-between">
+          <h5 class="fs-4 fw-medium mb-0 text-center">
+            <i class="fa-solid fa-circle-user fa-md me-1"></i>
+            Hello, Sign in
+          </h5>
+          <button
+            type="button"
+            class="btn-close text-dark"
+            data-bs-dismiss="offcanvas"
+            aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body bg-light">
+          <div class="main__list">
+            <div class="first-category">
+              <div>
+                <h5 class="text-dark fw-bold ms-3">Trending</h5>
+              </div>
+              <div>
+                <ul class="ms-3 list-group list-group-light list-group-small">
+                  <li class="list-group-item bg-light ripple-primary">
+                    Best Sellers
+                  </li>
+                  <li class="list-group-item bg-light">New Releases</li>
+                  <li class="list-group-item bg-light">Movers and Shakers</li>
+                  <li class="list-group-item bg-light">
+                    <hr />
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="second-category">
+              <div>
+                <h5 class="text-dark fw-bold ms-3">
+                  Digital Content And Devices
+                </h5>
+              </div>
+              <ul class="ms-3 list-group list-group-light">
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    Amazon miniTV- FREE entertainment
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Echo &amp; Alexa</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Fire TV</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Kindle E-Readers &amp; eBooks</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Audible Audiobooks</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Amazon Prime Video</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Amazon Prime Music</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <hr />
+                </li>
+              </ul>
+            </div>
+            <div class="Third category">
+              <div>
+                <h5 class="text-dark fw-bold ms-3">Shop by Category</h5>
+              </div>
+              <ul class="ms-3 list-group list-group-light">
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">
+                    <div>Mobiles, Computers</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark"
+                    ><div>TV, Appliances, Electronics</div>
+                  </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark"><div>Men's Fashion</div> </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark"><div>Women's Fashion</div> </a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <hr />
+                </li>
+              </ul>
+            </div>
+            <div class="fourth-category">
+              <div>
+                <h5 class="text-dark fw-bold ms-3">Help & Settings</h5>
+              </div>
+              <ul class="ms-3 list-group list-group-light">
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">Your Account</a>
+                </li>
+                <li class="list-group-item bg-light">
+                  <a href="#!" class="text-dark">Customer Service</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/mdb.min.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+      integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+      crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+      integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+      crossorigin="anonymous"></script>
+  </body>
+</html>

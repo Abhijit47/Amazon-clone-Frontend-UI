@@ -1,0 +1,382 @@
+body {
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+  background-color: aliceblue;
+}
+
+.header {
+  z-index: 100;
+}
+
+.navbar {
+  background-color: #131921 !important;
+}
+
+.navbar-brand {
+  position: relative;
+}
+
+.navbar-brand small {
+  font-size: .8rem;
+  position: absolute;
+  right: -6px;
+  top: 14px;
+}
+
+.navbar__logo .prime {
+  font-size: .8rem;
+  position: absolute;
+  top: 36px;
+  left: 79px;
+}
+
+.navbar_location_msg {
+  font-size: 0.6rem !important;
+}
+
+.navbar_address {
+  font-size: 0.8rem !important;
+}
+
+/* 
+form .all_options span {
+  padding: 0.4rem !important;
+} */
+
+form .all_options span:hover {
+  cursor: pointer;
+
+}
+
+form .select {
+  position: absolute;
+  top: 10px;
+  opacity: 0;
+  margin-top: 5px;
+}
+
+form .select:hover {
+  cursor: pointer;
+}
+
+form .search input {
+  padding: 5px !important;
+}
+
+.search button {
+  padding: .8rem;
+  /* background-color: #febd69; */
+  border-radius: 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* .search .search_span:hover {
+  cursor: pointer;
+} */
+
+form .search {
+  width: 645px;
+}
+
+.nav-right .language,
+.nav-right .sign_in,
+.nav-right .item_return,
+.nav-right .cart {
+  font-size: .8rem;
+}
+
+.location:hover {
+  cursor: pointer;
+}
+
+.nav-right .language:hover {
+  cursor: pointer;
+}
+
+.nav-right .sign_in:hover {
+  cursor: pointer;
+}
+
+.nav-right .item_return:hover {
+  cursor: pointer;
+}
+
+.nav-right .cart:hover {
+  cursor: pointer;
+}
+
+.nav-belt {
+  font-size: .9rem;
+}
+
+.nav-main {
+  background-color: #232f3e;
+}
+
+.carousel .carousel-inner .carousel__imag1,
+.carousel .carousel-inner .carousel__imag2,
+.carousel .carousel-inner .carousel__imag3,
+.carousel .carousel-inner .carousel__imag4,
+.carousel .carousel-inner .carousel__imag5,
+.carousel .carousel-inner .carousel__imag6,
+.carousel .carousel-inner .carousel__imag7 {
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40vh;
+}
+
+.carousel .carousel-inner .carousel__imag1 {
+  background-image: url(./images/slide-1.jpg);
+
+}
+
+.carousel .carousel-inner .carousel__imag2 {
+  background-image: url(./images/slide-2.jpg);
+}
+
+.carousel .carousel-inner .carousel__imag3 {
+  background-image: url(./images/slide-3.jpg);
+}
+
+.carousel .carousel-inner .carousel__imag4 {
+  background-image: url(./images/slide-4.jpg);
+}
+
+.carousel .carousel-inner .carousel__imag5 {
+  background-image: url(./images/slide-5.jpg);
+}
+
+.carousel .carousel-inner .carousel__imag6 {
+  background-image: url(./images/slide-6.jpg);
+}
+
+.carousel .carousel-inner .carousel__imag7 {
+  background-image: url(./images/slide-7.jpg);
+}
+
+#card-1,
+#card-2,
+#card-3,
+#card-4,
+#card-5,
+#card-6,
+#card-7,
+#card-8 {
+  min-height: 30rem;
+}
+
+.card .card-header {
+  background-color: #fff !important;
+}
+
+.card div div small {
+  font-size: .8rem !important;
+}
+
+.product_cards-3 a {
+  font-size: .8rem !important;
+}
+
+section div form p {
+  font-size: .8rem !important;
+  margin-bottom: 1.5rem;
+}
+
+section div form div {
+  font-size: .8rem !important;
+  margin-top: .5rem;
+}
+
+.footer__btn {
+  background-color: #37475A;
+  font-size: .8rem !important;
+}
+
+footer .footer__column-1,
+.footer__column-2 {
+  background-color: #232F3E !important;
+}
+
+footer .footer__column-1 .nav .nav-item .nav-link {
+  font-size: .8rem !important;
+}
+
+footer .footer__column-1 .nav .nav-item .nav-link:hover {
+  text-decoration: underline !important;
+}
+
+.footer__column-2_countries ul {
+  font-size: .7rem !important;
+}
+
+footer .footer__column-2_countries .nav .nav-item .nav-link:hover {
+  text-decoration: underline !important;
+}
+
+footer .footer__column-3 {
+  background-color: #131A22;
+}
+
+/* footer .footer__column-3 div {
+  font-size: .8rem !important;
+} */
+
+footer .footer__column-3 td .nav-link {
+  font-size: .7rem !important;
+}
+
+footer .footer__column-3 td .nav-link:hover {
+  text-decoration: underline !important;
+}
+
+footer .footer__copyright-container {
+  background-color: #131A22;
+}
+
+footer .footer__copyright_links {
+  font-size: .7rem !important;
+}
+
+footer .footer__copyright {
+  font-size: .7rem !important;
+}
+
+.hmenu {
+  background-color: #232f3e;
+}
+
+@media only screen and (max-width: 576px) {
+  form .search {
+    width: 400px;
+  }
+
+  section .furnish_banner {
+    width: 400px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  form .search {
+    width: 400px;
+  }
+
+  section .furnish_banner {
+    width: 500px;
+  }
+}
+
+@media only screen and (min-width: 955px) and (max-width: 991px) {
+
+  #card-1 .auto1,
+  #card-1 .auto2,
+  #card-1 .auto3,
+  #card-1 .auto4 {
+    width: 180px !important;
+  }
+
+  #card-3 .home1,
+  #card-3 .home2,
+  #card-3 .home3,
+  #card-3 .home4 {
+    width: 180px !important;
+  }
+
+  #card-5 .tool1,
+  #card-5 .tool2,
+  #card-5 .tool3,
+  #card-5 .tool4 {
+    width: 180px !important;
+  }
+
+  #card-6 .men1,
+  #card-6 .men2,
+  #card-6 .men3,
+  #card-6 .men4 {
+    width: 180px !important;
+  }
+
+  #card-7 .women1,
+  #card-7 .women2,
+  #card-7 .women3,
+  #card-7 .women4 {
+    width: 180px !important;
+  }
+
+  #card-8 .travel1,
+  #card-8 .travel2,
+  #card-8 .travel3,
+  #card-8 .travel4 {
+    width: 180px !important;
+  }
+
+  section .furnish_banner {
+    width: 700px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+  #card-1 .auto1,
+  #card-1 .auto2,
+  #card-1 .auto3,
+  #card-1 .auto4 {
+    width: 130px !important;
+  }
+
+  #card-3 .home1,
+  #card-3 .home2,
+  #card-3 .home3,
+  #card-3 .home4 {
+    width: 130px !important;
+  }
+
+  #card-5 .tool1,
+  #card-5 .tool2,
+  #card-5 .tool3,
+  #card-5 .tool4 {
+    width: 130px !important;
+  }
+
+  #card-6 .men1,
+  #card-6 .men2,
+  #card-6 .men3,
+  #card-6 .men4 {
+    width: 130px !important;
+  }
+
+  #card-7 .women1,
+  #card-7 .women2,
+  #card-7 .women3,
+  #card-7 .women4 {
+    width: 130px !important;
+  }
+
+  #card-8 .travel1,
+  #card-8 .travel2,
+  #card-8 .travel3,
+  #card-8 .travel4 {
+    width: 130px !important;
+  }
+}
+
+/* @media only screen and (min-width: 576px) {
+
+  #card-1 .auto1,
+  #card-1 .auto2,
+  #card-1 .auto3,
+  #card-1 .auto4 {
+    width: 95px !important;
+  }
+} */
+
+/* @media (min-width: 576px) {
+
+  #card-1 .auto1,
+  #card-1 .auto2,
+  #card-1 .auto3,
+  #card-1 .auto4 {
+    width: 95px !important;
+  }
+} */
