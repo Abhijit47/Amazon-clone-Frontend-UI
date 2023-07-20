@@ -249,11 +249,28 @@ footer .footer__copyright {
 
 @media only screen and (max-width: 576px) {
   form .search {
-    width: 400px;
+    width: 200px;
   }
 
   section .furnish_banner {
     width: 400px;
+  }
+
+  .carousel .carousel-inner .carousel__imag1,
+  .carousel .carousel-inner .carousel__imag2,
+  .carousel .carousel-inner .carousel__imag3,
+  .carousel .carousel-inner .carousel__imag4,
+  .carousel .carousel-inner .carousel__imag5,
+  .carousel .carousel-inner .carousel__imag6,
+  .carousel .carousel-inner .carousel__imag7 {
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 25vh;
+  }
+
+  .carousel .carousel-indicators {
+    display: none;
   }
 }
 
